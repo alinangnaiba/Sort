@@ -4,7 +4,7 @@ namespace Sort.View
 {
     public interface IView
     {
-        public void Display();
-        public void DisplayError(string message);
+        void Display();
+        void DisplayError(string message);
     }
 }
