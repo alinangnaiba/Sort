@@ -5,7 +5,7 @@ namespace Sort.View
 {
     public interface ISortView : IView
     {
-        public DataList GetDataList();
-        public void Display(IEnumerable<Data> data);
+        DataList GetDataList();
+        void Display(IEnumerable<Data> data);
     }
 }
